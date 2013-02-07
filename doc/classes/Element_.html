@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset='UTF-8'>
+  <title>ShimIt Documentation</title>
+  <link rel='stylesheet' href='..&#47;assets/codo.css' type='text/css'>
+  <script src='..&#47;assets/codo.js'></script>
+  <script src='..&#47;assets/search_data.js'></script>
+</head>
+  <body>
+    <div id='base' data-path='..&#47;'></div>
+<div id='header'>
+  <div id='menu'>
+    <a href='..&#47;README.md.html' title='Shim'>Shim</a>
+    &raquo;
+    <a href='..&#47;class_index.html' title='Index'>Index</a>
+    &raquo;
+    <span class='title'>Element_</span>
+    <nav>
+      <ul>
+        <li class='noframes'>
+          (<a class='noframes' href='#'>no frames</a>)
+        </li>
+      </ul>
+    </nav>
+    <div id='search'>
+      <a id='class_list_link' href='..&#47;class_list.html'>Classes</a>
+      <a id='method_list_link' href='..&#47;method_list.html'>Methods</a>
+      <a id='extra_list_link' href='..&#47;extra_list.html'>Extras</a>
+    </div>
+  </div>
+  <iframe id='search_frame'></iframe>
+  <div id='fuzzySearch'>
+    <input type='text'>
+    <ol></ol>
+  </div>
+  <div id='help'>
+    <p>
+      Quickly fuzzy find classes, mixins, methods, file:
+    </p>
+    <ul>
+      <li>
+        <span>Ctrl-T</span>
+        Open fuzzy finder dialog
+      </li>
+    </ul>
+    <p>
+      In frame mode you can toggle the list naviation frame on the left side:
+    </p>
+    <ul>
+      <li>
+        <span>Ctrl-L</span>
+        Toggle list view
+      </li>
+    </ul>
+    <p>
+      You can focus a list in frame mode or toggle a tab in frameless mode:
+    </p>
+    <ul>
+      <li>
+        <span>Ctrl-C</span>
+        Class list
+      </li>
+      <li>
+        <span>Ctrl-I</span>
+        Mixin list
+      </li>
+      <li>
+        <span>Ctrl-F</span>
+        File list
+      </li>
+      <li>
+        <span>Ctrl-M</span>
+        Method list
+      </li>
+      <li>
+        <span>Ctrl-E</span>
+        Extras list
+      </li>
+    </ul>
+    <p>
+      You can focus and blur the search input:
+    </p>
+    <ul>
+      <li>
+        <span>Ctrl-S</span>
+        Focus search input
+      </li>
+      <li>
+        <span>Esc</span>
+        Blur search input
+      </li>
+    </ul>
+    <p>
+      In frameless mode you can close the list tab:
+    </p>
+    <ul>
+      <li>
+        <span>Esc</span>
+        Close list tab
+      </li>
+    </ul>
+  </div>
+</div>
+    <div id='content'>
+      <h1>
+        Class:
+        Element_
+      </h1>
+      <table class='box'>
+        <tr>
+          <td>Defined in:</td>
+          <td>src&#47;_Element.coffee</td>
+        </tr>
+        <tr>
+          <td>Inherits:</td>
+          <td>
+            <a href='..&#47;classes/Shim.html'>Shim</a>
+          </td>
+        </tr>
+      </table>
+      <h2>Property Summary</h2>
+      <h3 class='inherited'>
+        Properties inherited from
+        <a href='..&#47;classes/Shim.html'>Shim</a>
+      </h3>
+      <p class='inherited'>
+        <a href='..&#47;classes/Shim.html#__superclass-property'>__superclass</a>
+      </p>
+      <h2>Instance Method Summary</h2>
+      <ul class='summary'>
+  <li>
+    <span class='signature'>
+      <a href='#matchesSelector-instance'>
+        - (Boolean) <strong>matchesSelector</strong>(selector)
+      </a>
+    </span>
+    <span class='desc'>
+      Does element match selector?
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#_cumulativeOffset-instance'>
+        - (Object &lt;top, left&gt;) <strong>_cumulativeOffset</strong>()
+      </a>
+    </span>
+    <span class='desc'>
+      Get element&#39;s offset from document root
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#_setXStyle-instance'>
+        - (?) <strong>_setXStyle</strong>(styleName, value)
+      </a>
+    </span>
+    <span class='desc'>
+      Set an element&#39;s style using browser prefixes
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#__example-instance'>
+        - (void) <strong>__example</strong>()
+      </a>
+    </span>
+    <span class='desc'>
+      
+    </span>
+  </li>
+</ul>
+      <h2>
+        <small>Inherited Method Summary</small>
+      </h2>
+      <h3 class='inherited'>
+        Methods inherited from
+        <a href='..&#47;classes/Shim.html'>Shim</a>
+      </h3>
+      <p class='inherited'>
+        <a href='..&#47;classes/Shim.html#__example-instance'>#__example</a>
+      </p>
+      <h2>Instance Method Details</h2>
+      <div class='methods'>
+  <div class='method_details'>
+    <p class='signature' id='matchesSelector-instance'>
+      - (Boolean) <strong>matchesSelector</strong>(selector)
+    </p>
+    <div class='docstring'>
+  <p>Does element match selector?</p>
+</div>
+<div class='tags'>
+  <h3>Parameters:</h3>
+  <ul class='param'>
+    <li>
+      <span class='name'>selector</span>
+      <span class='type'>
+        (<tt>String</tt>)
+      </span>
+    </li>
+  </ul>
+  <h3>Returns:</h3>
+  <ul class='return'>
+    <li>
+      <span class='type'></span>
+      (<tt>Boolean</tt>)
+      &mdash;
+      <span class='desc'>Matches Selector</span>
+    </li>
+  </ul>
+  <h3>See also:</h3>
+  <ul class='see'>
+    <li>
+      <a href='https:&#47;&#47;developer.mozilla.org&#47;en-US&#47;docs&#47;DOM&#47;Element.mozMatchesSelector'>https:&#47;&#47;developer.mozilla.org&#47;en-US&#47;docs&#47;DOM&#47;Element.mozMatchesSelector</a>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='_cumulativeOffset-instance'>
+      - (Object &lt;top, left&gt;) <strong>_cumulativeOffset</strong>()
+    </p>
+    <div class='docstring'>
+  <p>Get element&#39;s offset from document root</p>
+  <div class='examples'>
+    <h3>Examples:</h3>
+    <h4>
+      
+    </h4>
+    <pre><code class='coffee'>foo._cumulativeOffset()
+# =&gt; {top: 0, left: 0}</code></pre>
+  </div>
+</div>
+<div class='tags'>
+  <h3>Returns:</h3>
+  <ul class='return'>
+    <li>
+      <span class='type'></span>
+      (<tt>Object &lt;top, left&gt;</tt>)
+      &mdash;
+      <span class='desc'>Offset</span>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='_setXStyle-instance'>
+      - (?) <strong>_setXStyle</strong>(styleName, value)
+    </p>
+    <div class='docstring'>
+  <p>Set an element&#39;s style using browser prefixes</p>
+  <div class='examples'>
+    <h3>Examples:</h3>
+    <h4>
+      
+    </h4>
+    <pre><code class='coffee'>foo._setXStyle &#39;transform&#39;, &#39;scale(3)&#39;
+# =&gt; foo</code></pre>
+  </div>
+</div>
+<div class='tags'>
+  <h3>Returns:</h3>
+  <ul class='return'>
+    <li>
+      <span class='type'></span>
+      (<tt>?</tt>)
+      &mdash;
+      <span class='desc'>this</span>
+    </li>
+  </ul>
+</div>
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='__example-instance'>
+      - (void) <strong>__example</strong>()
+    </p>
+    <div class='tags'>
+</div>
+  </div>
+</div>
+    </div>
+    <div id='footer'>
+  Generated on
+  Wed Jan 09 2013 23:50:24 GMT-0700 (MST)
+  by
+  <a href='https://github.com/netzpirat/codo' title='CoffeeScript API documentation generator'>Codo</a>
+  v1.5.3
+  (Node.js v0.8.10).
+  &#10034;
+  Press Ctrl-h to see the keyboard shortcuts
+  &#10034;
+  <a href='http://twitter.com/#!/netzpirat'>@netzpirat</a>
+  &#10034;
+  <a href='https://mksoft.ch'>mksoft.ch</a>
+</div>
+  </body>
+</html>
