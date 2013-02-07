@@ -1,1 +1,1 @@
-coffee -j public/ShimIt.js -c src/pre.coffee src/_*.coffee src/post.coffee && codo && growlnotify -n "ShimIt" -m "Docs Done"
+coffee -j bin/ShimIt.js -c src/pre.coffee src/_*.coffee src/post.coffee && codo && growlnotify -n "ShimIt" -m "Docs Done"
